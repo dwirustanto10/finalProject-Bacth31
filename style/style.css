@@ -1,0 +1,15 @@
+body {
+  min-height: 2000px;
+}
+
+.hero {
+  padding-top: 2rem;
+  background-color: #bddcf1;
+}
+
+.hero img {
+  width: 300px;
+  /* height: 500px; */
+  /* float: right; */
+  /* border-radius: 50px 0px 0px 0px; */
+}
