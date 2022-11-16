@@ -4,12 +4,37 @@ body {
 
 .hero {
   padding-top: 2rem;
-  background-color: #bddcf1;
+  background-color: white;
+  position: relative;
 }
 
 .hero img {
-  width: 300px;
-  /* height: 500px; */
-  /* float: right; */
-  /* border-radius: 50px 0px 0px 0px; */
+  width: 75%;
+  height: 800px;
+  float: right;
+  border-radius: 60px 0px 0px 0px;
+}
+
+.name {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 600px;
+  padding-top: 50px;
+  width: 50%;
+  height: 330px;
+  position: absolute;
+  background-color: rgb(245, 237, 226);
+  border-radius: 0px 60px 60px 0px;
+}
+
+.blank {
+  margin-left: 0;
+  width: 15%;
+  height: 25%;
+  background-color: rgb(146, 224, 198);
+  border-radius: 0px 30px 30px 0px;
+}
+
+#about {
+  position: static;
 }
